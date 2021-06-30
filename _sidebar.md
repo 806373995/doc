@@ -12,3 +12,7 @@
   - [连接查询](/notes/连接查询.md)
 
   - [Mysql事务](/notes/Mysql事务机制.md)
+
+  - [架构师学习路线](/notes/架构师学习路线.md)
+
+  - [docker部署](/notes/centos7 Docker安装步骤.md)
