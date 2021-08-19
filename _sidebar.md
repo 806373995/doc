@@ -15,4 +15,4 @@
 
   - [架构师学习路线](/notes/架构师学习路线.md)
 
-  - [docker部署](/notes/centos7 Docker安装步骤.md)
+  - [docker部署](/notes/centos7Docker安装步骤.md)
