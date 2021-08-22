@@ -4,7 +4,7 @@ pipeline {
     stages {
         stage('Build') {
             steps {
-                sh 'echo 123'
+                sh 'echo 1234'
             }
         }
     }
