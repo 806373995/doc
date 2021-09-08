@@ -16,3 +16,7 @@
   - [架构师学习路线](/notes/架构师学习路线.md)
 
   - [docker部署](/notes/centos7Docker安装步骤.md)
+
+  - [Linux常用命令](/notes/linux基本命令.md)
+
+  - [JVM内存模型](/notes/JVM内存模型.md)
