@@ -29,3 +29,7 @@
   - [Linux常用命令](/notes/linux基本命令.md)
 
   - [Linux装机必备工具](/notes/linux装机必备工具.md)
+
+- UI
+
+  - [UI设计入门视频](/notes/UI设计入门.md)
