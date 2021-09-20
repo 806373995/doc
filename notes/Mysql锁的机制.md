@@ -18,7 +18,7 @@
 
 应用场景：
 
-![业务锁](C:\Users\Administrator\OneDrive\笔记\image\业务锁.png)
+![业务锁](.\image\业务锁.png)
 
 A表：作为数据表。
 
