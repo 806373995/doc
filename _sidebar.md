@@ -12,11 +12,13 @@
 
   - [shiro对比Spring-sercurity](/notes/shiro对比spring-security.md)
 
-  - [SpringDataJpa读写分离](/notes/SpringBoot-SpringDataJPA读写分离.md)
-
   - [JVM内存模型](/notes/JVM内存模型.md)
 
   - [架构师学习路线](/notes/架构师学习路线.md)
+
+  - [Java开发手册](/notes/《Java开发手册（泰山版）》.pdf)
+
+  - [SpringDataJPA读写分离](/notes/SpringBoot+SpringDataJPA读写分离.md)
 
 - 数据库
 
@@ -24,11 +26,15 @@
 
   - [Mysql事务](/notes/Mysql事务机制.md)
 
+  - [Mysql锁](/notes/Mysql锁的机制.md)
+
 - 服务器Linux
 
   - [Linux常用命令](/notes/linux基本命令.md)
 
   - [Linux装机必备工具](/notes/linux装机必备工具.md)
+
+  - [Linux目录结构](/notes/linux目录结构.md)
 
 - UI
 

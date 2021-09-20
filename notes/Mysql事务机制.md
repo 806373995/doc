@@ -129,3 +129,9 @@ public PageInfoData<UserQueryData> findUsers(SysUserParams sysUserParams, PageIn
 
 
 部分资料来源：https://juejin.cn/post/6844903827611582471
+
+## 并发控制 与 MVCC
+
+MVCC (multiple-version-concurrency-control）它是个**行级锁**的变种， 在**普通读情况下避免了加锁操作，因此开销更低**。虽然实现不同，但通常都是实现**非阻塞读**，对于**写操作只锁定必要的行。**
+
+https://segmentfault.com/a/1190000018658828
