@@ -18,7 +18,7 @@
 
 应用场景：
 
-<img src=".\image\业务锁.png" alt="业务锁" style="zoom: 67%;" />
+![业务锁](C:\Users\Administrator\OneDrive\笔记\image\业务锁.png)
 
 A表：作为数据表。
 

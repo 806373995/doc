@@ -16,8 +16,6 @@
 
   - [架构师学习路线](/notes/架构师学习路线.md)
 
-  - [Java开发手册](/notes/《Java开发手册（泰山版）》.pdf)
-
   - [SpringDataJPA读写分离](/notes/SpringBoot+SpringDataJPA读写分离.md)
 
 - 数据库
