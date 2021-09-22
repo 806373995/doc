@@ -75,13 +75,13 @@ undo log：提供回滚操作的日志，它其中包含了数据所有的历史
 
 ![undolog](.\image\undolog.png)
 
-### read view
+## read view
 
 在事务开启的一条查询，会生成相应的read view存储的内容包含当前所有 **未提交的事务id** + **已提交事务id** 的最大值组成。
 
 ![readview](.\image\readview.png)
 
-### 数据可视性原则
+## 数据可视性原则
 
 首先, mysql 把数据分为三种状态,已提交事务，未提交与已提交事务，未开启事务，那么这3种状态的区分规则为使用两个节点的id区分min_id 和max_id。所以将read view的抽象图就是下表
 
