@@ -108,3 +108,43 @@ undo log：提供回滚操作的日志，它其中包含了数据所有的历史
 未提交读，之所以不需要MVCC是因为每次读都会读最新的数据（包含未提交的数据），所以根本用不到MVCC机制。
 
 串行化，每次事务都需要依次执行，相当于是单线程，所以单线程根本不需要MVCC来支持，每次读都读的最新的数据。
+
+##  悲观锁与乐观锁
+
+参照文档：https://blog.csdn.net/tianyaleixiaowu/article/details/90036180
+
+**悲观锁**：顾名思义以悲观的态度来看待数据，就是每次读数据都会防止别人来操作该数据。例如在一次事务中，第一次读数据就把该锁起来，然后修改该数据，直到该事务结束。在数据库级别就是在读的时候加for update的sql语句。
+
+```
+begin;
+select * from user where id =1 for update;
+update user set name = '张三' where id =1;
+commit;
+```
+
+for update的用法可以见排他锁部分。
+
+**乐观锁**：和悲观锁相反，以乐观的态度看待数据，就是每次操作数据，再最后一步需要修改数据时再来判断数据是否已经被别人操作。如果被操作，那么本次事务就不应该生效。乐观锁和悲观锁还有不同的是，乐观锁的实现是通过业务字段来实现。例：
+
+```
+select * from user where id = 1;
+
+update user set name = '张三' ,version = version =1 where id =1 and version = 1;
+```
+
+以上的sql中添加了version字段，修改一次version会加加一，必须保证第一条sql查询出来的version等于第二条sql where条件中的version相等，本条sql才能生效。
+
+有种情况不需要使用version字段例如：
+
+```
+select * from user where id = 1;
+
+update user set name = '张三' where id =1 and status = true;
+```
+
+例如我的业务为，该条数据状态为true才能修改，那么按照这种特殊的业务即可省去version字段。
+
+开发时需要根据不同的业务场景选择不同的锁。
+
+其实乐观锁在并发很大的情况是有问题的，因为同时很多并发访问数据库会导致数据库抛出大量的并发异常，相当于这种情况只适用于读多写少的情况，那么详细的解决方案可以采用分布式锁。
+
