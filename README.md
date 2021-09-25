@@ -1,4 +1,4 @@
-# My Blogs
+# My Blog
 
 - [CI/CD集成](/notes/GitlabCiCd集成.md)
 
