@@ -34,6 +34,13 @@
 
   - [Linux目录结构](/notes/linux目录结构.md)
 
+- 其他
+
+  - [布隆过滤器](/notes/布隆过滤器.md)
+
+  - [RESTfulAPI](/notes/RESTfulAPI.md)
+
+
 - UI
 
   - [UI设计入门视频](/notes/UI设计入门.md)
