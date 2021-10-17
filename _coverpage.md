@@ -1,6 +1,6 @@
 # My Blog
 ## 技术改变世界
-### 后端 | 基金 | 学习
+### 后端 | 服务器 | 学习
 
 
 
@@ -8,4 +8,4 @@
 [马上开始 <i class="iconfont icon-down"></i>](#main)
 
 <!-- background image -->
-![](/_media/loveourplanet-4851331_1920.jpg)
+![](/_media/154716h3mn41aa94hvlaa5.jpeg)
