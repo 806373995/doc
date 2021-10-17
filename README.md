@@ -1,11 +1,23 @@
-# My Blogs
+# Noob Blogs
 
-- [CI/CD集成](/notes/GitlabCiCd集成.md)
+## 前言
 
-- [shiro对比Spring-sercurity](/notes/shiro对比spring-security.md)
+本博客主要用于个人知识总结，内容包括：
 
-- [SpringDataJpa读写分离](/notes/SpringBoot-SpringDataJPA读写分离.md)
+- 平时在工作中遇到的问题总结
+- 使用新的技术总结
+- 词典查询
 
-- [连接查询](/notes/连接查询.md)
+本文档采用CI部署，快捷部署。
 
-- [Mysql事务](/notes/Mysql事务机制.md)
+本博客不作为商业使用，其中文章部分以及截图来源于网络，大部分都标明出处，如有侵删，联系方式QQ：806373995。如果你对我的博客感兴趣也可以加我QQ。
+
+
+
+常看文档
+
+\- [Linux常用命令](/notes/linux基本命令.md)
+
+\- [Linux目录结构](/notes/linux目录结构.md)
+
+\- [UI设计入门视频](/notes/UI设计入门.md)

@@ -18,6 +18,10 @@
 
   - [SpringDataJPA读写分离](/notes/SpringBoot+SpringDataJPA读写分离.md)
 
+- 中间键
+
+  - [AMQP与RabbitMQ](/notes/AMQP与RabbitMQ.md)
+
 - 数据库
 
   - [连接查询](/notes/连接查询.md)
