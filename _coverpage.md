@@ -8,4 +8,4 @@
 [马上开始 <i class="iconfont icon-down"></i>](#main)
 
 <!-- background image -->
-![](/_media/154716h3mn41aa94hvlaa5.jpeg)
+![](/_media/v2-f672a345fd1382a1c2954741ccd5a75d_r.jpg)
