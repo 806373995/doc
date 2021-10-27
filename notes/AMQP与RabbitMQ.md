@@ -93,7 +93,7 @@
 
 ### 4. 路由
 
-![python-four](C:\Users\Administrator\OneDrive\笔记\image\python-four.png)
+![python-four](.\image\python-four.png)
 
 采用的Exchange为direct直连交换机
 
