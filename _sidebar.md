@@ -14,8 +14,6 @@
 
   - [JVM内存模型](/notes/JVM内存模型.md)
 
-  - [架构师学习路线](/notes/架构师学习路线.md)
-
   - [SpringDataJPA读写分离](/notes/SpringBoot+SpringDataJPA读写分离.md)
 
 - 中间键
